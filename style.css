@@ -114,3 +114,16 @@ h1 {
         font-size: 14px;
     }
 }
+
+#btnReset {
+	margin-top: 30px;
+	width: 260px;
+	height: 80px;
+	background: red;
+	color: white;
+	font-size: 22px;
+}
+
+#btnReset:hover {
+	cursor: pointer;
+}
