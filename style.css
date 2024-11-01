@@ -1,109 +1,129 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Cartela de Bingo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Cartela de Bingo</h1>
-    <div class="bingo-card">
-        <div class="bingo-column" id="column-B">
-            <h2>B</h2>
-            <button class="bingo-number" onclick="toggleNumber(this)">1</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">2</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">3</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">4</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">5</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">6</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">7</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">8</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">9</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">10</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">11</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">12</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">13</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">14</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">15</button>
-        </div>
-        <div class="bingo-column" id="column-I">
-            <h2>I</h2>
-            <button class="bingo-number" onclick="toggleNumber(this)">16</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">17</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">18</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">19</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">20</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">21</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">22</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">23</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">24</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">25</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">26</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">27</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">28</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">29</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">30</button>
-        </div>
-        <div class="bingo-column" id="column-N">
-            <h2>N</h2>
-            <button class="bingo-number" onclick="toggleNumber(this)">31</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">32</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">33</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">34</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">35</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">36</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">37</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">38</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">39</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">40</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">41</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">42</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">43</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">44</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">45</button>
-        </div>
-        <div class="bingo-column" id="column-G">
-            <h2>G</h2>
-            <button class="bingo-number" onclick="toggleNumber(this)">46</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">47</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">48</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">49</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">50</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">51</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">52</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">53</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">54</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">55</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">56</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">57</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">58</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">59</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">60</button>
-        </div>
-        <div class="bingo-column" id="column-O">
-            <h2>O</h2>
-            <button class="bingo-number" onclick="toggleNumber(this)">61</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">62</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">63</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">64</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">65</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">66</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">67</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">68</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">69</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">70</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">71</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">72</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">73</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">74</button>
-            <button class="bingo-number" onclick="toggleNumber(this)">75</button>
-        </div>
-    </div>
-    <button id="btnReset" onclick="resetGame()"><b>Reiniciar Números</></button>
-    <div class="last-number">
-        Último número clicado: <span id="last-number">Nenhum</span>
-    </div>
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+/* Cartela de Bingo */
+.bingo-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bingo-column {
+    border: 2px solid #ccc;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100px;
+}
+
+/* Cabeçalho escurecido para cada coluna */
+.bingo-column h2 {
+    margin: 0 0 10px 0;
+    font-size: 32px;
+    background-color: #333;
+    color: #fff; /* Cor do texto das letras */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo dos números */
+.bingo-number {
+    display: block;
+    width: 80px;
+    height: 65px;
+    margin: 12px auto;
+    font-size: 28px;
+    background-color: #e9ecef;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333;
+    transition: all 0.3s;
+}
+
+.bingo-number:hover {
+    background-color: #d4e0f2;
+}
+
+.bingo-number.active {
+    background-color: #e76f51;
+    color: #fff;
+    border-color: #e76f51;
+}
+
+/* Último número */
+.last-number {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+#last-number {
+    font-weight: bold;
+    color: red;
+}
+
+/* Media queries para adaptação */
+@media (max-width: 768px) {
+    .bingo-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .bingo-column h2 {
+        font-size: 24px;
+    }
+
+    .bingo-number {
+        width: 60px;
+        height: 55px;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bingo-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .bingo-column h2 {
+        font-size: 20px;
+    }
+
+    .bingo-number {
+        width: 45px;
+        height: 45px;
+        font-size: 26px;
+    }
+}
+
+#btnReset {
+	margin-top: 30px;
+	width: 260px;
+	height: 80px;
+	background: red;
+	color: white;
+	font-size: 22px;
+}
+
+#btnReset:hover {
+	cursor: pointer;
+}
