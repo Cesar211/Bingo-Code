@@ -95,6 +95,13 @@ h1 {
         height: 59px;
         font-size: 26px;
     }
+
+    /* Último número */
+     .last-number {
+   	 margin-top: 30px;
+  	 font-size: 50px;
+    	color: #333;
+   }
 }
 
 @media (max-width: 480px) {
