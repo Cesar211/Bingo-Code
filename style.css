@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* Cartela de Bingo */
+.bingo-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bingo-column {
+    border: 2px solid #ccc;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100px;
+}
+
+/* Cabeçalho escurecido para cada coluna */
+.bingo-column h2 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    background-color: #333;
+    color: #fff; /* Cor do texto das letras */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo dos números */
+.bingo-number {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+    font-size: 18px;
+    background-color: #e9ecef;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333;
+    transition: all 0.3s;
+}
+
+.bingo-number:hover {
+    background-color: #d4e0f2;
+}
+
+.bingo-number.active {
+    background-color: #e76f51;
+    color: #fff;
+    border-color: #e76f51;
+}
+
+/* Último número */
+.last-number {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+#last-number {
+    font-weight: bold;
+    color: red;
+}
+
+/* Media queries para adaptação */
+@media (max-width: 768px) {
+    .bingo-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .bingo-column h2 {
+        font-size: 24px;
+    }
+
+    .bingo-number {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bingo-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .bingo-column h2 {
+        font-size: 20px;
+    }
+
+    .bingo-number {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
