@@ -9,7 +9,7 @@ body {
 h1 {
     color: #333;
     margin-bottom: 20px;
-    font-size: 42px;
+    font-size: 46px;
 }
 
 /* Cartela de Bingo */
@@ -44,10 +44,10 @@ h1 {
 /* Estilo dos números */
 .bingo-number {
     display: block;
-    width: 80px;
+    width: 100px;
     height: 65px;
     margin: 12px auto;
-    font-size: 28px;
+    font-size: 30px;
     background-color: #e9ecef;
     border: 2px solid #ddd;
     border-radius: 8px;
@@ -91,7 +91,7 @@ h1 {
     }
 
     .bingo-number {
-        width: 60px;
+        width: 95px;
         height: 55px;
         font-size: 26px;
     }
