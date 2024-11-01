@@ -46,7 +46,7 @@ h1 {
     display: block;
     width: 100px;
     height: 65px;
-    margin: 12px auto;
+    margin: 14px auto;
     font-size: 30px;
     background-color: #e9ecef;
     border: 2px solid #ddd;
@@ -87,12 +87,12 @@ h1 {
     }
 
     .bingo-column h2 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .bingo-number {
         width: 95px;
-        height: 58px;
+        height: 59px;
         font-size: 26px;
     }
 }
